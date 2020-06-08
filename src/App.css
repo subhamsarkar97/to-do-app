@@ -1,0 +1,39 @@
+body{
+  background-color: #9266ff;
+}
+body > h2{
+    margin: 2px auto;
+}
+.app{
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto 
+}
+.input1{
+  border-radius: 10px;
+  margin-right: 5px;
+  background-color: #0099cc;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+}
+
+.btn{
+  border-radius: 5px;
+  background-color: #ff9900;
+  border: none;
+}
+
+.input1,.btn{
+    margin: 15px; 
+    height: 50px;
+    padding: 0px 20px;
+}
+
+.input1::placeholder{
+  color: rgba(255,255,255,0.5)
+}
+.input1:focus,.btn:focus{
+  outline: none;
+}
